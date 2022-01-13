@@ -4,11 +4,12 @@ local L = locale ~= "zh" and locale ~= "zhr" -- true 英文; false 中文
 version = "0.0.1"
 -- mod名字
 name = L and "[ASOUL] Characters Diana" or "[ASOUL] 人物 王嘉然"
-description = L and " for Don't Starve Together."
 -- mod描述
 description =
-    L and "天使幼崽与魔王幼崽·篇\nThanks for using this mod!\n                                           [version]"..version.."  [file]\n\n*mods by ASOUL fans"
-    or "天使幼崽与魔王幼崽·篇\n感谢订阅本mod！                                [版本]"..version.."  [文件]\n\n*ASOUL 粉丝自制二创"
+    L and "天使幼崽与魔王幼崽·篇\nThanks for using this mod!\n[version]" .. version .. "  [file]\n\nmods by ASOUL fans"
+    or "天使幼崽与魔王幼崽·篇\n感谢订阅本mod!\n[版本]"..version.."  [文件]\n\nASOUL 粉丝自制二创"
+-- 作者
+author = "是敢敢呢"
 
 -- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
 forumthread = ""
