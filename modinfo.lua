@@ -1,55 +1,65 @@
---The name of the mod displayed in the 'mods' screen.
-name = "My item example" --Mod的名字
+local L = locale ~= "zh" and locale ~= "zhr" -- true 英文; false 中文
 
---A description of the mod.
-description = "A simple item example" --Mod描述
+-- mod版本 上传mod需要两次的版本不一样
+version = "0.0.1"
+-- mod名字
+name = L and "[ASOUL] Characters Diana" or "[ASOUL] 人物 王嘉然"
+description = L and " for Don't Starve Together."
+-- mod描述
+description =
+    L and "天使幼崽与魔王幼崽·篇\nThanks for using this mod!\n                                           [version]"..version.."  [file]\n\n*mods by ASOUL fans"
+    or "天使幼崽与魔王幼崽·篇\n感谢订阅本mod！                                [版本]"..version.."  [文件]\n\n*ASOUL 粉丝自制二创"
 
-author = "LongFei" --作者名
- 
-version = "0.1"  --Mod版本
+-- This is the URL name of the mod's thread on the forum; the part after the ? and before the first & in the url
+forumthread = ""
 
-api_version = 10  --mod的API版本
 
--- Compatible with both the base game, reign of giants, and dst
---以下几句，都是设置兼容性的，分别对应DS，ROG,SW和DST
-dont_starve_compatible = true
-reign_of_giants_compatible = true
-shipwrecked_compatible = true
-dst_compatible = true
-    
-icon_atlas = ""--mod的图标设置
-icon = ""--mod的图标图片
+-- This lets other players know if your mod is out of date, update it to match the current version in the game
+api_version = 6
+api_version_dst = 10
 
-forumthread = ""  --MOD在klei论坛的下载地址，没有可以留空，但不可删除
 
---These let clients know if they need to get the mod from the Steam Workshop to join the game
-all_clients_require_mod = true
-clients_only_mod = false
+dst_compatible = true                   -- 兼容联机
+dont_starve_compatible = false          -- 不兼容原版
+reign_of_giants_compatible = false      -- 不兼容巨人DLC
+shipwrecked_compatible = false          -- 不兼容海难DLC
 
---This lets people search for servers with this mod by these tags
-server_filter_tags = {"utility"}
+all_clients_require_mod = true --所有人mod
+-- client_only_mod = true
 
--- ModConfiguration option
+icon_atlas = "modicon.xml" -- mod图标
+icon = "modicon.tex"
+
+priority = -1000000000 --后加载
+
+-- 服务器列表标签
+server_filter_tags = L and { "ASOUL: characters" } or { "ASOUL: 人物" }
+
+-- mod设置
 configuration_options =
 {
-	{
-		name = "MAXSTACKSIZE",
-		label = "Max stacksize",
-		options =	{
-						{description = "20", data = 20},
-						{description = "40", data = 40},
-						{description = "60", data = 60},
-						{description = "80", data = 80},
-						{description = "99", data = 99},
-						{description = "120", data = 120},
-						{description = "150", data = 150},
-						{description = "200", data = 200},
-						{description = "250", data = 250},
-					},
-
-		default = 99,
-	},
+    L and {
+        name = 'Skillbadge',
+        label = 'Skill badge',
+        hover = 'Show skill badge',
+        options =
+        {
+            {description = 'Yes', data = true},
+            {description = 'No', data = false},
+        },
+        default = true
+    } or {
+        name = 'Skillbadge',
+        label = '角色技能按钮',
+        hover = '是否显示角色技能的按钮',
+        options =
+        {
+            {description = '是', data = true},
+            {description = '否', data = false},
+        },
+        default = true
+    },
 }
 
-priority = 0.00374550642
---priority = -9999 --mod的启动优先级，越低的越晚启动，一般不用设置，除非和其他MOD有冲突需要调整
+--兼容动态加载mod
+-- StaticAssetsReg = {'monkey_king', 'myth_skins_prefab'}
