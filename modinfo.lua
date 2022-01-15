@@ -34,7 +34,7 @@ icon = "modicon.tex"
 priority = -1000000000 --后加载
 
 -- 服务器列表标签
-server_filter_tags = L and { "ASOUL: characters" } or { "ASOUL: 人物" }
+server_filter_tags = { "character", "item" }
 
 -- mod设置
 configuration_options =
