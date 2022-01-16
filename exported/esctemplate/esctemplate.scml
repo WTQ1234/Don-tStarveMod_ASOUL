@@ -142,11 +142,11 @@
         <file id="4" name="headbase_hat/headbase_hat-4.png" width="299" height="299" pivot_x="0.520832" pivot_y="0.186585"/>
     </folder>
     <folder id="12" name="hairpigtails">
-        <file id="0" name="hairpigtails/hairpigtails-0.png" width="0" height="0" pivot_x="0.713297" pivot_y="0.538501"/>
-        <file id="1" name="hairpigtails/hairpigtails-1.png" width="0" height="0" pivot_x="0.329298" pivot_y="0.491335"/>
-        <file id="2" name="hairpigtails/hairpigtails-2.png" width="0" height="0" pivot_x="0.713297" pivot_y="0.538501"/>
-        <file id="3" name="hairpigtails/hairpigtails-3.png" width="0" height="0" pivot_x="0.713297" pivot_y="0.538501"/>
-        <file id="4" name="hairpigtails/hairpigtails-4.png" width="0" height="0" pivot_x="0.329298" pivot_y="0.491335"/>
+        <file id="0" name="hairpigtails/hairpigtails-0.png" width="250" height="300" pivot_x="0.713297" pivot_y="0.538501"/>
+        <file id="1" name="hairpigtails/hairpigtails-1.png" width="250" height="300" pivot_x="0.329298" pivot_y="0.491335"/>
+        <file id="2" name="hairpigtails/hairpigtails-2.png" width="250" height="300" pivot_x="0.713297" pivot_y="0.538501"/>
+        <file id="3" name="hairpigtails/hairpigtails-3.png" width="250" height="300" pivot_x="0.713297" pivot_y="0.538501"/>
+        <file id="4" name="hairpigtails/hairpigtails-4.png" width="250" height="300" pivot_x="0.329298" pivot_y="0.491335"/>
     </folder>
     <folder id="13" name="skirt">
         <file id="0" name="skirt/skirt-0.png" width="160" height="140" pivot_x="0.502184" pivot_y="0.481878"/>
