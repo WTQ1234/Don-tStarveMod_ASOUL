@@ -36,7 +36,7 @@
         <file id="32" name="face/face-32.png" width="200" height="200" pivot_x="0.542747" pivot_y="0.570502"/>
     </folder>
     <folder id="1" name="headbase">
-        <file id="0" name="headbase/headbase-0.png" width="299" height="299" pivot_x="0.520832" pivot_y="0.186585"/>
+        <file id="0" name="headbase/headbase-0.png" width="449" height="449" pivot_x="0.520832" pivot_y="-0.613415"/>
         <file id="1" name="headbase/headbase-1.png" width="300" height="300" pivot_x="0.545165" pivot_y="0.181918"/>
         <file id="2" name="headbase/headbase-2.png" width="300" height="300" pivot_x="0.520832" pivot_y="0.186585"/>
         <file id="3" name="headbase/headbase-3.png" width="300" height="300" pivot_x="0.520832" pivot_y="0.186585"/>
@@ -278,7 +278,7 @@
                     <object_ref id="77" name="torso_pelvis_6_87" folder="17" file="6" abs_x="0.9" abs_y="45.999" abs_pivot_x="0.499996" abs_pivot_y="0.211671" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="87" key="0" z_index="77"/>
                     <object_ref id="78" name="torso_6_21" folder="3" file="6" abs_x="0.9" abs_y="45.999" abs_pivot_x="0.499996" abs_pivot_y="0.211671" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="21" key="0" z_index="78"/>
                     <object_ref id="79" name="skirt_1_64" folder="13" file="1" abs_x="0.9" abs_y="45.999" abs_pivot_x="0.498903" abs_pivot_y="0.561878" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="64" key="0" z_index="79"/>
-                    <object_ref id="80" name="headbase_0_2" folder="1" file="0" abs_x="-324.5625" abs_y="120.099" abs_pivot_x="0.520832" abs_pivot_y="0.186585" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="80"/>
+                    <object_ref id="80" name="headbase_0_2" folder="1" file="0" abs_x="-319.048553" abs_y="118.81112" abs_pivot_x="0.520832" abs_pivot_y="-0.613415" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="80"/>
                     <object_ref id="81" name="headbase_1_40" folder="1" file="1" abs_x="363" abs_y="120.699" abs_pivot_x="0.545165" abs_pivot_y="0.181918" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="40" key="0" z_index="81"/>
                     <object_ref id="82" name="headbase_hat_0_1" folder="11" file="0" abs_x="-324.5625" abs_y="120.099" abs_pivot_x="0.520832" abs_pivot_y="0.186585" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="82"/>
                     <object_ref id="83" name="headbase_hat_1_39" folder="11" file="1" abs_x="363" abs_y="120.699" abs_pivot_x="0.545165" abs_pivot_y="0.181918" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="39" key="0" z_index="83"/>
@@ -310,7 +310,7 @@
             </timeline>
             <timeline id="2" name="headbase_0_2">
                 <key id="0" spin="0">
-                    <object folder="1" file="0" x="-324.5625" y="120.099" angle="0"/>
+                    <object folder="1" file="0" x="-319.048553" y="118.81112" angle="0"/>
                 </key>
             </timeline>
             <timeline id="3" name="hair_hat_0_3">
