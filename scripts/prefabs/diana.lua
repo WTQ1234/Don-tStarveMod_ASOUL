@@ -79,7 +79,7 @@ local master_postinit = function(inst)
 	-- 人物音效
 	inst.soundsname = "willow"
 
-	inst.Transform:SetScale(1.5, 1.5, 1.5)
+	-- inst.Transform:SetScale(1.5, 1.5, 1.5)
 
 	-- 三维	
 	inst.components.health:SetMaxHealth(TUNING.DIANA_HEALTH)
